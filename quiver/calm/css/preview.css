@@ -5,7 +5,7 @@
 /* Plain text */
 .ace-calm-dark {
   background: linear-gradient(to right, #021318, #045A6D);
-  color: #657B83;
+  color: #f8f8f2;
 }
 
 /* --------------------------------------------------------------------------
@@ -27,11 +27,11 @@
 }
 
 .ace-calm-dark i {
-  color: #006600;
+  color: #c3f9c3;
 }
 
 .ace-calm-dark code {
-  color: #B2A080;
+  color: #f4eecf;
 }
 
 .ace-calm-dark a {
@@ -39,29 +39,42 @@
 }
 
 .ace-calm-dark h1 {
-   background: linear-gradient(to bottom, #D2DFE7, #454545);
-   color: #004040;
+   background: linear-gradient(to bottom, #c3eef9, #1b4760);
+   color: #025674;
    text-transform: uppercase;
+   text-align: center;
+   padding: 3px;
+   border-radius: 3px;
 }
 
 .ace-calm-dark h2 {
   background: linear-gradient(to top, #000000, #045A6D);
-  color: #D2DFE7;
-}
-
-.ace-calm-dark h1,
-.ace-calm-dark h2 {
-   text-align: center;
-    padding: 7px;
-    border-radius: 3px;
+  color: #8ee5fa;
+  text-align: center;
+  padding: 2px;
+  border-radius: 2px;
 }
 
 .ace-calm-dark h3 {
-  color: #999999;
+  background: linear-gradient(to bottom, #000000, #045A6D);
+  color: #8ee5fa;
+  text-align: left;
+  padding: 1px;
+  border-radius: 1px;
+}
+
+.ace-calm-dark h4 {
+  color: #8ee5fa;
+  text-align: left;
+}
+
+.ace-calm-dark h5 {
+  color: #8ee5fa;
+  text-align: left;
 }
 
 .ace-calm-dark li {
-  color: #0E7172;
+  color: #c5ffeb;
 }
 
 .ace-calm-dark hr {
@@ -186,13 +199,13 @@ color: #006600;
 .ace-calm-dark s {
   color: #FF8000;
 }
-
+/*
 .ace-calm-dark h4,
 .ace-calm-dark h5,
 .ace-calm-dark h6 {
   color: #999999;
 }
-
+*/
 .ace-calm-dark blockquote {
   color: #4C886B;
 }

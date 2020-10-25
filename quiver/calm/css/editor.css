@@ -6,7 +6,7 @@
 /* Plain text */
 .ace-calm-dark {
   background: linear-gradient(to right, #021318, #045A6D);
-  color: #657B83;
+  color: #f8f8f2;
 }
 
 /* --------------------------------------------------------------------------
@@ -20,11 +20,11 @@
 }
 
 .ace-calm-dark i {
-  color: #006600;
+  color: #c3f9c3;
 }
 
 .ace-calm-dark code {
-  color: #B2A080;
+  color: #f4eecf;
 }
 
 .ace-calm-dark a {
@@ -216,8 +216,20 @@
    -------------------------------------------------------------------------- */
 
 /* Plain text & tables */
+
+.ace-calm-dark .markdown-cell .ace_editor {
+  color:#f8f8f2;
+  background-color:#282a36
+} 
+
+.ace-calm-dark .markdown-cell .ace_list
+{color:#fdfed7}
+
+.ace-calm-dark .cell.inEditMode
+{border-color:#44475a;} 
+
 .ace-calm-dark .markdown-cell .ace_text.ace_xml {
-  color: #0E7172;
+  color: #f8f8f2;
 }
 
 .ace-calm-dark .ace_constant.ace_language.ace_escape {
@@ -260,12 +272,8 @@
   color: #999999;
 }
 
-.ace-calm-dark .ace_list {
-  color: #045A6D;
-}
-
 .ace-calm-dark .ace_string.ace_blockquote {
-  color: #4C886B;
+  color: #fdfed7;
 }
 
 /* --------------------------------------------------------------------------
