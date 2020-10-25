@@ -230,8 +230,8 @@
     "backgroundColor": "#00202A"
   },
   "editor": {
-   "codeCellTheme": "monokai",
-   "markdownCellTheme": "monokai"
+   "codeCellTheme": "ace-calm-dark",
+   "markdownCellTheme": "ace-calm-dark"
   },
   "css": {
     "className": "ace-calm-dark",
